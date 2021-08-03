@@ -1,0 +1,71 @@
+#portfolio-section{
+    padding: 80px 15px;
+}
+#portfolio-section .title{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+#portfolio-section .title .square{
+    background: #ffeded;
+    width: 135px;
+    height: 135px;
+    position: absolute;
+    top: 30px;
+}
+#portfolio-section .title h1{
+    position: relative;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #16171b;
+    z-index: 1;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+#portfolio-section .portfolio-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+#portfolio-section .portfolio-container .box{
+    background: rgba(255, 255, 255, 0);
+    padding: 40px;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+}
+#portfolio-section .portfolio-container .box:hover{
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 40px 74px 25px rgba(0,0,0,0.08);
+    -webkit-box-shadow: 0px 40px 74px 25px rgba(0,0,0,0.08);
+    -moz-box-shadow: 0px 40px 74px 25px rgba(0,0,0,0.08);
+}
+#portfolio-section .portfolio-container .box .fas{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+#portfolio-section .portfolio-container .box h3{
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+}
+#portfolio-section .portfolio-container .box p{
+    font-size: .9rem;
+    line-height: 1.5;
+    color: #b3b3b3;
+}
+#portfolio-section .portfolio-container .box.blue{
+    border-bottom: 2px solid #52b8ff;
+}
+#portfolio-section .portfolio-container .box.red{
+    border-bottom: 2px solid #ff5253;
+}
+#portfolio-section .portfolio-container .box.yellow{
+    border-bottom: 2px solid #ffc853;
+}
