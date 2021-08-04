@@ -159,7 +159,7 @@
 
 #portfolio-section .portfolio-container .box.image7{
     grid-column: 3 / 4;
-    grid-row: 4 / 6;
+    grid-row: 5 / 6;
 }
 #portfolio-section .portfolio-container .box.image7 .image{
     background: url('https://cdn.dribbble.com/users/6532302/screenshots/16172660/media/3fa120547492c6f06447b4845d45d5e4.jpg?compress=1&resize=1200x900');
