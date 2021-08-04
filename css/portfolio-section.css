@@ -30,7 +30,7 @@
 #portfolio-section .portfolio-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 150px 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px 150px 150px;
     grid-gap: 10px;
 }
 #portfolio-section .portfolio-container .box{
@@ -55,11 +55,17 @@
     padding: 10px 20px;
     background: rgba(255, 255, 255, 0);
     transition: all .4s ease-in-out;
+    height: 100%;
+    width: 100%;
 }
 #portfolio-section .portfolio-container .box:hover .image .hover-bg{
     border-radius: 5px;
     padding: 10px 20px;
     background: rgba(255, 255, 255, .6);
+}
+#portfolio-section .portfolio-container .box .image .hover-bg .title{
+    height: 100%;
+    width: 100%;
 }
 #portfolio-section .portfolio-container .box .image .hover-bg .title .text{
     background: black;
