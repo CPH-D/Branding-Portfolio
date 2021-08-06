@@ -76,3 +76,16 @@
     line-height: 1.7;
     font-size: 1.2rem;
 }
+#testimonials-section .testimonials-container .test-sides {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+#testimonials-section .testimonials-container .test-sides .person-img {
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-color: #f2f3f5;
+    height: 80%;
+}
