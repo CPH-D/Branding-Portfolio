@@ -1,5 +1,5 @@
 #experience-section {
-  padding: 80px 15px;
+  padding: 100px 15px;
 }
 #experience-section .large-title {
   color: #c6e4ff;
@@ -16,14 +16,14 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
 }
-#experience-section .experience-container .large-icons .square {
+#experience-section .experience-container .large-icons .square-parent {
   border: 20px solid #52b8ff;
   padding: 5px;
   display: inline-block;
   position: relative;
   top: -100px;
 }
-#experience-section .experience-container .large-icons .square .blue-box {
+#experience-section .experience-container .large-icons .square-parent .square-child {
   color: white;
   width: 150px;
   height: 150px;
@@ -37,16 +37,16 @@
   letter-spacing: 3px;
   font-size: 1.1rem;
 }
-#experience-section .experience-container .large-icons .circle {
+#experience-section .experience-container .large-icons .circle-parent {
   border: 20px solid #ffc853;
   padding: 5px;
   display: inline-block;
   border-radius: 50%;
   position: relative;
-  top: 50px;
+  top: 70px;
   left: 50px;
 }
-#experience-section .experience-container .large-icons .circle .yellow-box {
+#experience-section .experience-container .large-icons .circle-parent .circle-child {
   color: #ffc853;
   display: flex;
   justify-content: center;
@@ -58,4 +58,71 @@
   font-size: 1.1rem;
   font-weight: 600;
   text-transform: uppercase;
+}
+#experience-section .experience-container .large-icons .triangle-parent {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 150px 230px 150px;
+  border-color: transparent transparent #ff5253 transparent;
+  position: relative;
+}
+#experience-section .experience-container .large-icons .triangle-parent .triangle-child {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 93.75px 151.75px 93.75px;
+  border-color: transparent transparent #fff transparent;
+  position: absolute;
+  left: -94px;
+  top: 49px;  
+}
+#experience-section .experience-container .large-icons .triangle-parent .triangle-child .text {
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ff5253;
+  position: relative;
+  top: 98px;
+  left: -29px;
+}
+#experience-section .experience-container .info {
+  padding: 60px 0 0;
+}
+#experience-section .experience-container .info .img-box{
+  position: relative;
+}
+#experience-section .experience-container .info .img-box .lambda-img{
+  width: 300px;
+  position: absolute;
+  top: -125px;
+  left: 275px
+}
+#experience-section .experience-container .info .info-box {
+  padding: 15px;
+}
+#experience-section .experience-container .info .info-box h4 {
+  color: #16171c;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+#experience-section .experience-container .info .info-box .date {
+  color: #52b7ff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  padding: 15px 0;
+  display: block;
+}
+#experience-section .experience-container .info .info-box p {
+  color: #b2b2b4;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  display: block;
+  line-height: 1.5;
 }
