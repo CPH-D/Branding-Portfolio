@@ -1,0 +1,61 @@
+#experience-section {
+  padding: 80px 15px;
+}
+#experience-section .large-title {
+  color: #c6e4ff;
+  font-size: 4.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+  position: relative;
+  left: -100px;
+}
+#experience-section .experience-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+#experience-section .experience-container .large-icons .square {
+  border: 20px solid #52b8ff;
+  padding: 5px;
+  display: inline-block;
+  position: relative;
+  top: -100px;
+}
+#experience-section .experience-container .large-icons .square .blue-box {
+  color: white;
+  width: 150px;
+  height: 150px;
+  background: #52b8ff;
+  padding: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 3px;
+  font-size: 1.1rem;
+}
+#experience-section .experience-container .large-icons .circle {
+  border: 20px solid #ffc853;
+  padding: 5px;
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+#experience-section .experience-container .large-icons .circle .yellow-box {
+  color: #ffc853;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  letter-spacing: 3px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
