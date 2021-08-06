@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin: 0 auto 20px;
 }
 /* #portfolio-section .title .square{
     background: #ffeded;
@@ -21,17 +21,17 @@
     margin: 50px 0;
     position: relative;
     display: block;
-    color: #ffeded;
+    color: #fff6c4;
     width: 0px;
     height: 0px;
     border-right: 100px solid transparent;
-    border-bottom: 70px solid #ffeded;
+    border-bottom: 70px solid #fff6c4;
     border-left: 100px solid transparent;
     transform: rotate(35deg);
     position: absolute;
 }
 #star-five:before {
-    border-bottom: 80px solid #ffeded;
+    border-bottom: 80px solid #fff6c4;
     border-left: 30px solid transparent;
     border-right: 30px solid transparent;
     position: absolute;
@@ -47,20 +47,18 @@
 #star-five:after {
     position: absolute;
     display: block;
-    color: #ffeded;
+    color: #fff6c4;
     top: 3px;
     left: -105px;
     width: 0px;
     height: 0px;
     border-right: 100px solid transparent;
-    border-bottom: 70px solid #ffeded;
+    border-bottom: 70px solid #fff6c4;
     border-left: 100px solid transparent;
     transform: rotate(-70deg);
     content: '';
     position: absolute;
 }
-
-
 
 #portfolio-section .title h1{
     position: relative;
