@@ -42,12 +42,12 @@
     align-items: center;
 }
 #skills-section .skills-section-container .skills-box img {
-    width: 75px;
+    width: 70px;
     padding-bottom: 20px;
 }
 #skills-section .skills-section-container .skills-box h4 {
     color: #16171b;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 600;
 }
 #skills-section .skills-section-container .skills-box.skill1 {
