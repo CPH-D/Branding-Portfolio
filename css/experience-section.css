@@ -92,12 +92,13 @@
 }
 #experience-section .experience-container .info .img-box{
   position: relative;
+  text-align: right;
 }
 #experience-section .experience-container .info .img-box .lambda-img{
-  width: 300px;
+  width: 260px;
   position: absolute;
-  top: -120px;
-  left: 275px
+  top: -115px;
+  left: 255px;
 }
 #experience-section .experience-container .info .info-box {
   padding: 15px;
