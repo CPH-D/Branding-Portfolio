@@ -73,9 +73,33 @@
 
  /* Tablets */
 @media only screen and (max-width: 960px){
-
+    #top .container {
+        padding: 0 0 80px;
+    }
+    #top .img .background-img{
+        max-width: 430px;
+        height: 100vh;
+        margin: 0 auto;
+    }
+    #top .container .info .blue-square {
+        left: -64%
+    }
+    #top .container .info h1 {
+        font-size: 1.9rem;
+    }
 }
  /* Mobile */
-  @media only screen and (max-width: 767px){
-
+@media only screen and (max-width: 767px){
+    #top .container {
+        padding: 0 0 80px;
+    }
+    #top .container .background-img {
+        height: 100vh;
+    }
+    #top .container .info .blue-square {
+        display: none;
+    }
+    #top .container .info h1 {
+        font-size: 1.4rem;
+    }
 }

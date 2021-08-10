@@ -201,9 +201,21 @@
 
  /* Tablets */
  @media only screen and (max-width: 960px){
-
+    
 }
  /* Mobile */
   @media only screen and (max-width: 767px){
-
+    #skills-section .skills-section-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 90px 90px;
+        grid-gap: 15px;
+    }
+    #skills-section .skills-section-container .skills-box img {
+        width: 35px;
+        padding-bottom: 10px;
+    }
+    #skills-section .skills-section-container .skills-box h4 {
+        font-size: .8rem;
+    }
 }
