@@ -69,3 +69,13 @@
     height: 770px;
     margin: 0 auto;
 }
+
+
+ /* Tablets */
+@media only screen and (max-width: 960px){
+
+}
+ /* Mobile */
+  @media only screen and (max-width: 767px){
+
+}

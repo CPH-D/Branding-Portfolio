@@ -196,3 +196,14 @@
     grid-column: 11 / 12;
     grid-row: 1 / 2;
 }
+
+
+
+ /* Tablets */
+ @media only screen and (max-width: 960px){
+
+}
+ /* Mobile */
+  @media only screen and (max-width: 767px){
+
+}
