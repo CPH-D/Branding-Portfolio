@@ -1,5 +1,5 @@
 #process-section {
-    padding: 30px 15px 100px;
+    padding: 20px 15px 100px;
     background: #f9f8fc;
 }
 #process-section .process-title {
@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 100px auto 50px;
+    margin: 0 auto 50px;
 }
 #process-section .process-title .arrow {
     /* background: #dff4ff; */
@@ -135,7 +135,7 @@
  /* Mobile */
   @media only screen and (max-width: 767px){
     #process-section {
-        padding: 30px 15px 100px;
+        padding: 20px 15px 100px;
     }
     #process-section .process-section-container {
         display: grid;
