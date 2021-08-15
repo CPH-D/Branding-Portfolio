@@ -115,3 +115,75 @@
     grid-row: 1 / 2;
 }
 
+
+
+
+@media only screen and (max-width: 960px){
+    #process-section .process-section-container {
+        grid-template-rows: 100px;
+        grid-gap: 0px;
+    }
+    #process-section .process-section-container .process-box i{
+        font-size: 2rem;
+    }
+    #process-section .process-section-container .arrow-box i{
+        font-size: 2.7rem;
+        top: 25px;
+        left: 30px
+    }
+}
+ /* Mobile */
+  @media only screen and (max-width: 767px){
+    #process-section {
+        padding: 30px 15px 100px;
+    }
+    #process-section .process-section-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 100px 100px;
+        grid-gap: 10px;
+    }
+    #process-section .process-section-container .process1 {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    #process-section .process-section-container .process1-2 {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    #process-section .process-section-container .process2 {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+    #process-section .process-section-container .process2-3 {
+        grid-column: 4 / 5;
+        grid-row: 1 / 2;
+    }
+    #process-section .process-section-container .process3 {
+        grid-column: 5 / 6;
+        grid-row: 1 / 2;
+    }
+    #process-section .process-section-container .process3-4 {
+        display: none;
+    }
+    #process-section .process-section-container .process4 {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+    #process-section .process-section-container .process4-5 {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+    #process-section .process-section-container .process5 {
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+    }
+    #process-section .process-section-container .process5-6 {
+        grid-column: 4 / 5;
+        grid-row: 2 / 3;
+    }
+    #process-section .process-section-container .process6 {
+        grid-column: 5 / 6;
+        grid-row: 2 / 3;
+    }
+}
