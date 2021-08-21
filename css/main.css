@@ -19,12 +19,71 @@ body {
   margin: 0 auto;
 }
 
+
+
+header{
+  display: flex;
+  padding: 15px 20px;
+  justify-content: space-between;
+}
+header .logo{
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  display: flex;
+}
+header .logo .name {  
+  background: black;
+  padding: 15px 20px;
+  border-radius: 3px;
+  text-decoration: none;
+  color: white;
+}
+header .header-menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .header-menu a{
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  padding: 0 10px;  
+}
+header .header-menu a:hover{
+  font-weight: 700;
+  color: rgba(255, 53, 53, 1);
+}
+header .menu-btn{
+  color: black;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  font-size: 1.8rem;
+  display: none;
+  cursor: pointer;
+}
+
+
 @media only screen and (max-width: 960px){
   .container{ width: 100%}
 }
 
 @media only screen and (max-width: 767px){
-
+  header .logo{
+    font-size: 1.3rem;
+    padding: 10px 15px;
+  }
+  header .header-menu{
+    display: none;
+  }
+  header .menu-btn{
+    display: flex;
+  }
 }
 
 /* @media only screen and (max-width: 375px){
