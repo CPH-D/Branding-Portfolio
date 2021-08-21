@@ -61,7 +61,7 @@
 }
 
 #top .img .background-img{
-    background: url('../img/production/placeholder-profile.jpg');
+    background: url('../../img/production/placeholder-profile.jpg');
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
