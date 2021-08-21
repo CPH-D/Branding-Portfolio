@@ -68,8 +68,8 @@ header .menu-btn{
   cursor: pointer;
 }
 .mobile-menu {
+  display: none;
   background: white;
-  display: flex;
   flex-direction: column;
   padding: 40px 0;
   position: absolute;
@@ -114,8 +114,7 @@ header .menu-btn{
   header .menu-btn{
     display: flex;
   }
+  .mobile-menu {
+    display: flex;
+  }
 }
-
-/* @media only screen and (max-width: 375px){
-
-} */
