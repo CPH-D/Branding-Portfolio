@@ -9,9 +9,8 @@
     width: 100%;
     height: 450px;
     background-size: cover !important;
-    background-position: center center !important;
+    background-position: top center !important;
     background-repeat: no-repeat !important;
-    background-attachment: fixed !important;
 }
 #portfolio-projects h1{
     font-size: 4rem;
@@ -51,6 +50,7 @@
 }
 #portfolio-projects .technologies{
     padding: 100px 0;
+    text-align: center;
 }
 #portfolio-projects h3{
     font-size: 2rem;
@@ -65,8 +65,51 @@
     align-items: center;
     justify-items: center;
 }
+#portfolio-projects .technologies .icons img{
+    filter: grayscale(100%);
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+#portfolio-projects .technologies .icons img:hover{
+    filter: grayscale(0%);
+}
 #portfolio-projects .technologies .icons .icon img{    
 }
 #portfolio-projects .video{
     text-align: center;
+}
+
+
+
+@media only screen and (max-width: 960px){
+    #portfolio-projects h1{
+        font-size: 3rem;
+    }
+    #portfolio-projects p{
+        font-size: 1rem;
+    }
+    #portfolio-projects .video iframe{
+        width: 100% !important;
+    }    
+}
+
+@media only screen and (max-width: 767px){
+    #portfolio-projects h1{
+        text-align: center;
+    }
+    #portfolio-projects .info .buttons{
+        text-align: center;
+    }
+    #portfolio-projects .info .buttons a{
+        margin-bottom: 10px;
+    }
+    #portfolio-projects .technologies .icons{
+        grid-gap: 10px;
+    }
+    #portfolio-projects .technologies .icons .icon img{
+        width: 40px;
+    }
+    #portfolio-projects .video iframe{
+        width: 100% !important;
+    }
 }
