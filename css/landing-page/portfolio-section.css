@@ -10,13 +10,6 @@
     align-items: center;
     margin: 0 auto 50px;
 }
-/* #portfolio-section .title .square{
-    background: #ffeded;
-    width: 135px;
-    height: 135px;
-    position: absolute;
-    top: 30px;
-} */
 #star-five {
     margin: 50px 0;
     position: relative;
@@ -73,7 +66,7 @@
 #portfolio-section .portfolio-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 150px 150px 150px 150px 150px;
+    grid-template-rows: 180px 180px 150px 150px 150px 150px;
     grid-gap: 10px;
 }
 #portfolio-section .portfolio-container .box{
@@ -129,7 +122,7 @@
 
  /* Box locations  */
 #portfolio-section .portfolio-container .box.image1{
-    grid-column: 1 / 3;
+    grid-column: 1 / 4;
     grid-row: 1 / 2;
 }
 #portfolio-section .portfolio-container .box.image1 .image{
@@ -142,11 +135,11 @@
 }
 
 #portfolio-section .portfolio-container .box.image2{
-    grid-column: 3 / 4;
-    grid-row: 1 / 4;
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
 }
 #portfolio-section .portfolio-container .box.image2 .image{
-    background: url('https://cdn.dribbble.com/users/3515564/screenshots/16156741/media/4975945b543df214eb984e81c91475b6.png?compress=1&resize=1000x750');
+    background: url('https://cdn.dribbble.com/users/1666561/screenshots/16156221/media/72e8b60e48aefdcf556ed6a94981a9e2.jpg');
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -156,10 +149,10 @@
 
 #portfolio-section .portfolio-container .box.image3{
     grid-column: 1 / 2;
-    grid-row: 2 / 4;
+    grid-row: 3 / 5;
 }
 #portfolio-section .portfolio-container .box.image3 .image{
-    background: url('https://cdn.dribbble.com/users/1994279/screenshots/15765112/media/bbd2c1e68ee917a65f584f4946ff4965.png');
+    background: url('https://cdn.dribbble.com/users/3515564/screenshots/16156741/media/4975945b543df214eb984e81c91475b6.png?compress=1&resize=1000x750');
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -168,11 +161,11 @@
 }
 
 #portfolio-section .portfolio-container .box.image4{
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    grid-row: 5 / 7;
 }
 #portfolio-section .portfolio-container .box.image4 .image{
-    background: url('https://cdn.dribbble.com/users/1069526/screenshots/16165710/media/a391d786ade8cf2e94c4a0110fb06a66.jpg');
+    background: url('https://cdn.dribbble.com/users/1994279/screenshots/15765112/media/bbd2c1e68ee917a65f584f4946ff4965.png');
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -181,11 +174,11 @@
 }
 
 #portfolio-section .portfolio-container .box.image5{
-    grid-column: 1 / 2;
-    grid-row: 4 / 6;
+    grid-column: 2 / 3;
+    grid-row: 3 / 5;
 }
 #portfolio-section .portfolio-container .box.image5 .image{
-    background: url('https://cdn.dribbble.com/users/2187824/screenshots/16172270/media/1115cbae46cba9ba8c1d74b82467d8fc.png?compress=1&resize=1200x900');
+    background: url('https://cdn.dribbble.com/users/1069526/screenshots/16165710/media/a391d786ade8cf2e94c4a0110fb06a66.jpg');
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -195,10 +188,10 @@
 
 #portfolio-section .portfolio-container .box.image6{
     grid-column: 2 / 3;
-    grid-row: 3 / 6;
+    grid-row: 5 / 7;
 }
 #portfolio-section .portfolio-container .box.image6 .image{
-    background: url('https://cdn.dribbble.com/users/812225/screenshots/16172317/media/194c5a0fcd57b701bb2c73b2b968aaca.png');
+    background: url('https://cdn.dribbble.com/users/2187824/screenshots/16172270/media/1115cbae46cba9ba8c1d74b82467d8fc.png?compress=1&resize=1200x900');
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -208,9 +201,22 @@
 
 #portfolio-section .portfolio-container .box.image7{
     grid-column: 3 / 4;
-    grid-row: 4 / 6;
+    grid-row: 3 / 5;
 }
 #portfolio-section .portfolio-container .box.image7 .image{
+    background: url('https://cdn.dribbble.com/users/812225/screenshots/16172317/media/194c5a0fcd57b701bb2c73b2b968aaca.png');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#portfolio-section .portfolio-container .box.image8{
+    grid-column: 3 / 4;
+    grid-row: 5 / 7;
+}
+#portfolio-section .portfolio-container .box.image8 .image{
     background: url('https://cdn.dribbble.com/users/6532302/screenshots/16172660/media/3fa120547492c6f06447b4845d45d5e4.jpg?compress=1&resize=1200x900');
     height: 100%;
     width: 100%;
@@ -224,70 +230,78 @@
  /* Tablets */
  @media only screen and (max-width: 960px){
     #portfolio-section .portfolio-container{
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 150px 150px 150px 150px 150px 150px 150px 150px 150px;
+        grid-template-rows: 80px 80px 80px 80px 120px 120px 120px 120px;
     }
     #portfolio-section .portfolio-container .box.image1{
-        grid-column: 1 / 3;
+        grid-column: 1 / 4;
         grid-row: 1 / 3;
     }
     #portfolio-section .portfolio-container .box.image2{
-        grid-column: 1 / 2;
+        grid-column: 1 / 4;
         grid-row: 3 / 5;
     }
     #portfolio-section .portfolio-container .box.image3{
-        grid-column: 2 / 3;
-        grid-row: 3 / 5;
+        grid-column: 1 / 2;
+        grid-row: 5 / 7;
     }
     #portfolio-section .portfolio-container .box.image4{
         grid-column: 1 / 2;
-        grid-row: 5 / 7;
+        grid-row: 7 / 9;
     }
     #portfolio-section .portfolio-container .box.image5{
         grid-column: 2 / 3;
         grid-row: 5 / 7;
     }
     #portfolio-section .portfolio-container .box.image6{
-        grid-column: 1 / 2;
+        grid-column: 2 / 3;
         grid-row: 7 / 9;
     }
     #portfolio-section .portfolio-container .box.image7{
-        grid-column: 2 / 3;
+        grid-column: 3 / 4;
+        grid-row: 5 / 7;
+    }
+    #portfolio-section .portfolio-container .box.image8{
+        grid-column: 3 / 4;
         grid-row: 7 / 9;
     }
 }
  /* Mobile */
   @media only screen and (max-width: 767px){
     #portfolio-section .portfolio-container{
-        grid-template-columns: 1fr;
-        grid-template-rows: 150px 150px 150px 150px 150px 150px 150px 150px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 120px 120px 120px 120px 100px 100px 100px 100px;
+        grid-gap: 5px;
     }
     #portfolio-section .portfolio-container .box.image1{
-        grid-column: 1 / 2;
+        grid-column: 1 / 3;
         grid-row: 1 / 2;
     }
     #portfolio-section .portfolio-container .box.image2{
-        grid-column: 1 / 2;
+        grid-column: 1 / 3;
         grid-row: 2 / 3;
     }
     #portfolio-section .portfolio-container .box.image3{
         grid-column: 1 / 2;
-        grid-row: 3 / 4;
+        grid-row: 3 / 5;
     }
     #portfolio-section .portfolio-container .box.image4{
-        grid-column: 1 / 2;
-        grid-row: 4 / 5;
+        grid-column: 2 / 3;
+        grid-row: 3 / 5;
     }
     #portfolio-section .portfolio-container .box.image5{
         grid-column: 1 / 2;
-        grid-row: 5 / 6;
+        grid-row: 5 / 7;
     }
     #portfolio-section .portfolio-container .box.image6{
-        grid-column: 1 / 2;
-        grid-row: 6 / 7;
+        grid-column: 2 / 3;
+        grid-row: 5 / 7;
     }
     #portfolio-section .portfolio-container .box.image7{
         grid-column: 1 / 2;
-        grid-row: 7 / 8;
+        grid-row: 7 / 9;
+    }
+    #portfolio-section .portfolio-container .box.image8{
+        grid-column: 2 / 3;
+        grid-row: 7 / 9;
     }
 }
