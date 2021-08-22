@@ -48,35 +48,11 @@
     line-height: 1.7;
     margin-bottom: 1.8rem;
 }
-#portfolio-projects .technologies{
-    padding: 100px 0;
-    text-align: center;
-}
 #portfolio-projects h3{
     font-size: 2rem;
     font-weight: 700;
     margin: 2rem 0;
     text-transform: uppercase;
-}
-#portfolio-projects .technologies .icons{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
-    align-items: center;
-    justify-items: center;
-}
-#portfolio-projects .technologies .icons img{
-    filter: grayscale(100%);
-    transition: all .3s ease-in-out;
-    cursor: pointer;
-}
-#portfolio-projects .technologies .icons img:hover{
-    filter: grayscale(0%);
-}
-#portfolio-projects .technologies .icons .icon img{    
-}
-#portfolio-projects .video{
-    text-align: center;
 }
 
 
@@ -88,9 +64,6 @@
     #portfolio-projects p{
         font-size: 1rem;
     }
-    #portfolio-projects .video iframe{
-        width: 100% !important;
-    }    
 }
 
 @media only screen and (max-width: 767px){
@@ -102,14 +75,5 @@
     }
     #portfolio-projects .info .buttons a{
         margin-bottom: 10px;
-    }
-    #portfolio-projects .technologies .icons{
-        grid-gap: 10px;
-    }
-    #portfolio-projects .technologies .icons .icon img{
-        width: 40px;
-    }
-    #portfolio-projects .video iframe{
-        width: 100% !important;
     }
 }
