@@ -1,12 +1,17 @@
+#portfolio-body{
+    height: 100vh;
+}
 #portfolio-projects{
-    padding: 100px 15px;
+    padding: 50px 15px;
 }
 #portfolio-projects .project-image{
     width: 100%;
     margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
 }
 #portfolio-projects .project-image .img{
-    width: 100%;
+    width: 600px;
     height: 450px;
     background-size: cover !important;
     background-position: top center !important;
@@ -17,9 +22,11 @@
     font-weight: 600;
     font-style: italic;
     margin-bottom: 1.5rem;
+    text-align: center;
 }
 #portfolio-projects .info .buttons{
-    padding: 20px 0;    
+    padding: 20px 0;
+    text-align: center;
 }
 #portfolio-projects .info .buttons a{
     display: inline-block;
@@ -41,19 +48,6 @@
 #portfolio-projects .info .buttons a:hover .fas{
     color: black;
 }
-#portfolio-projects p{
-    display: inline-block;
-    color: #929294;
-    font-size: 1.2rem;
-    line-height: 1.7;
-    margin-bottom: 1.8rem;
-}
-#portfolio-projects h3{
-    font-size: 2rem;
-    font-weight: 700;
-    margin: 2rem 0;
-    text-transform: uppercase;
-}
 
 
 
@@ -61,18 +55,9 @@
     #portfolio-projects h1{
         font-size: 3rem;
     }
-    #portfolio-projects p{
-        font-size: 1rem;
-    }
 }
 
 @media only screen and (max-width: 767px){
-    #portfolio-projects h1{
-        text-align: center;
-    }
-    #portfolio-projects .info .buttons{
-        text-align: center;
-    }
     #portfolio-projects .info .buttons a{
         margin-bottom: 10px;
     }
