@@ -47,18 +47,16 @@ header .header-menu{
   justify-content: center;
   align-items: center;
 }
-header .header-menu a:link,
-header .header-menu a:visited{
+header .header-menu a{
   font-size: 1rem;
   text-transform: uppercase;
   text-decoration: none;
   color: black;
   font-weight: 700;
   padding: 0 20px;
-  transition: all 0.3s; 
+  transition: all 0.9s; 
 }
-header .header-menu a:hover,
-header .header-menu a:active{
+header .header-menu a:hover{
   color: #ff5253;
 }
 header .menu-btn{
@@ -72,6 +70,7 @@ header .menu-btn{
   display: none;
   cursor: pointer;
 }
+
 .mobile-menu {
   display: none;
   background: white;
