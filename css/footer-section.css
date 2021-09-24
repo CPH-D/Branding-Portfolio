@@ -1,6 +1,8 @@
 footer {
-    background: #f9fafc;
-    padding-top: 100px 15px;
+    /* background: #f9fafc; */
+    background: #0a0a0a;
+    padding-top: 100px 0;
+    color: #fff
 }
 footer .social-container {
     display: grid;
@@ -12,7 +14,8 @@ footer .social-container {
 }
 footer .social-container a {
     font-size: 3rem;
-    color: #8e8f91;
+    /* color: #8e8f91; */
+    color: #fff;
     text-decoration: none;
     transition: all .3s ease-in-out;
     display: inline-block;
@@ -23,24 +26,24 @@ footer .social-container a:hover {
 }
 footer h4 {
     font-size: 1rem;
-    color: black;
+    /* color: black; */
     text-transform: uppercase;
     text-align: center;
     margin: 20px 0 10px;
 }
 footer h5 {
     font-size: .8rem;
-    color: black;
+    /* color: black; */
     text-transform: capitalize;
     text-align: center;
     margin-bottom: 10px
 }
 footer h6 {
     font-size: .8rem;
-    color: black;
+    /* color: black; */
     text-transform: capitalize;
     text-align: center;
-    margin-bottom: 20px
+    padding-bottom: 30px
 }
 
 

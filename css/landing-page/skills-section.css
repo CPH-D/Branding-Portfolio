@@ -1,6 +1,6 @@
 #skills-section {
     padding: 0px 15px 20px;
-    background: #f9f8fc;
+    /* background: #f9f8fc; */
 }
 #skills-section .skills-title {
     position: relative;
@@ -12,7 +12,7 @@
     margin: 0 auto;
 }
 #skills-section .skills-title .circle {
-    background: #dff4ff;
+    background: #87CEFA;
     width: 135px;
     height: 135px;
     border-radius: 50%;

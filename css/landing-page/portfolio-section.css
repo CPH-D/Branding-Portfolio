@@ -14,17 +14,17 @@
     margin: 50px 0;
     position: relative;
     display: block;
-    color: #fff6c4;
+    color: #FFD700;
     width: 0px;
     height: 0px;
     border-right: 100px solid transparent;
-    border-bottom: 70px solid #fff6c4;
+    border-bottom: 70px solid #FFD700;
     border-left: 100px solid transparent;
     transform: rotate(35deg);
     position: absolute;
 }
 #star-five:before {
-    border-bottom: 80px solid #fff6c4;
+    border-bottom: 80px solid #FFD700;
     border-left: 30px solid transparent;
     border-right: 30px solid transparent;
     position: absolute;
@@ -40,13 +40,13 @@
 #star-five:after {
     position: absolute;
     display: block;
-    color: #fff6c4;
+    color: #FFD700;
     top: 3px;
     left: -105px;
     width: 0px;
     height: 0px;
     border-right: 100px solid transparent;
-    border-bottom: 70px solid #fff6c4;
+    border-bottom: 70px solid #FFD700;
     border-left: 100px solid transparent;
     transform: rotate(-70deg);
     content: '';

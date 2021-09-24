@@ -1,6 +1,6 @@
 #process-section {
     padding: 20px 15px 100px;
-    background: #f9f8fc;
+    /* background: #f9f8fc; */
 }
 #process-section .process-title {
     position: relative;
@@ -16,7 +16,7 @@
     width: 0;
     height: 0;
     border-top: 70px solid transparent;
-    border-left: 120px solid #dff4ff;
+    border-left: 120px solid #00FF00;
     border-bottom: 70px solid transparent;
     position: absolute;
     top: 30px;
