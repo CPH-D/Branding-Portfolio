@@ -133,6 +133,9 @@
 
  /* Tablets */
  @media only screen and (max-width: 960px){
+  #experience-section {
+    padding: 4.2rem 1.5rem 4.2rem;
+  }
   #experience-section .large-title {
     left: 0px;
     margin-bottom: 35px;

@@ -119,6 +119,9 @@
 
 
 @media only screen and (max-width: 960px){
+    #process-section {
+        padding: 1rem 1.5rem 6rem;
+    }
     #process-section .process-section-container {
         grid-template-rows: 100px;
         grid-gap: 0px;
