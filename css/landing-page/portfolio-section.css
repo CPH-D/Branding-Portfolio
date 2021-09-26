@@ -1,5 +1,5 @@
 #portfolio-section{
-    padding: 60px 15px 30px;
+    padding: 4rem 1.5rem 4rem;
 }
 #portfolio-section .title{
     position: relative;
@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto 50px;
+    margin: 0 auto 5rem;
 }
 #star-five {
     margin: 50px 0;
@@ -248,6 +248,9 @@
 }
  /* Mobile */
   @media only screen and (max-width: 767px){
+    #portfolio-section .title{
+        margin: 0 auto 1rem;
+    }
     #portfolio-section .portfolio-container{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 200px 200px 200px 100px 100px 100px 100px 100px 100px;

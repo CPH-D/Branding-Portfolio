@@ -1,6 +1,6 @@
 #skills-section {
-    padding: 0px 15px 20px;
-    /* background: #f9f8fc; */
+    padding: 3rem 1.5rem 1rem;
+    /* background: #f9f8fc; */;
 }
 #skills-section .skills-title {
     position: relative;
@@ -33,7 +33,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 150px 150px;
-    grid-gap: 20px;
+    grid-gap: 5px;
 }
 #skills-section .skills-section-container .skills-box {
     display: flex;

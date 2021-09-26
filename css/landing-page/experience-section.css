@@ -1,6 +1,6 @@
 #experience-section {
-  padding: 0px 15px;
-  margin: 200px 0;
+  padding: 16rem 1.5rem 18rem;
+  /* margin: 200px 0; */
 }
 #experience-section .large-title {
   color: #670E67;
@@ -161,6 +161,9 @@
 }
  /* Mobile */
   @media only screen and (max-width: 767px){
+    #experience-section {
+      padding: 6rem 1.5rem 8rem;
+    }
     #experience-section .large-title {
       margin-bottom: 10px;
       left: 0px;

@@ -1,5 +1,5 @@
 #process-section {
-    padding: 20px 15px 100px;
+    padding: 1rem 1.5rem 10rem;
     /* background: #f9f8fc; */
 }
 #process-section .process-title {
@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto 50px;
+    margin: 0 auto 2rem;
 }
 #process-section .process-title .arrow {
     /* background: #dff4ff; */
