@@ -70,11 +70,29 @@
 }
 
 .intro-title a{
-    color: #fff;
+    display: inline-block;
+    color: #aaa;
     font-size: 1.6rem;
     text-decoration: none;
-    border-bottom: 1px solid #fff;
     padding-bottom: .5rem;
+    /* border-bottom: 1px solid #fff; */
+}
+
+.intro-title a:hover{
+    color: #fff;
+}
+
+.intro-title a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width .3s;
+}
+
+.intro-title a:hover::after {
+    width: 100%;
 }
 
 
