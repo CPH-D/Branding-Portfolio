@@ -93,7 +93,6 @@
   @media only screen and (max-width: 767px){
     #skills-section {
         padding: 100px 15px 20px;
-        background: #f9f8fc;
     }
     #skills-section .skills-section-container {
         display: grid;
