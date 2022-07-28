@@ -2,6 +2,7 @@
   padding: 16rem 1.5rem 18rem;
   /* margin: 200px 0; */
 }
+
 #experience-section .large-title {
   color: #670E67;
   font-size: 4.5rem;
@@ -12,11 +13,13 @@
   position: relative;
   left: -100px;
 }
+
 #experience-section .experience-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
 }
+
 #experience-section .experience-container .large-icons .square-parent {
   border: 20px solid #003C66;
   padding: 5px;
@@ -24,6 +27,7 @@
   position: relative;
   top: -100px;
 }
+
 #experience-section .experience-container .large-icons .square-parent .square-child {
   color: white;
   width: 150px;
@@ -38,6 +42,7 @@
   letter-spacing: 3px;
   font-size: 1.1rem;
 }
+
 #experience-section .experience-container .large-icons .circle-parent {
   border: 20px solid #4D3400;
   padding: 5px;
@@ -47,6 +52,7 @@
   top: 70px;
   left: 50px;
 }
+
 #experience-section .experience-container .large-icons .circle-parent .circle-child {
   color: #4D3400;
   display: flex;
@@ -60,6 +66,7 @@
   font-weight: 600;
   text-transform: uppercase;
 }
+
 #experience-section .experience-container .large-icons .triangle-parent {
   width: 0;
   height: 0;
@@ -68,6 +75,7 @@
   border-color: transparent transparent #7A0000 transparent;
   position: relative;
 }
+
 #experience-section .experience-container .large-icons .triangle-parent .triangle-child {
   width: 0;
   height: 0;
@@ -76,8 +84,9 @@
   border-color: transparent transparent #EAF2F5 transparent;
   position: absolute;
   left: -94px;
-  top: 49px;  
+  top: 49px;
 }
+
 #experience-section .experience-container .large-icons .triangle-parent .triangle-child .text {
   font-weight: 600;
   font-size: 1.1rem;
@@ -88,22 +97,27 @@
   top: 98px;
   left: -29px;
 }
+
 #experience-section .experience-container .info {
   padding: 60px 0 0;
 }
-#experience-section .experience-container .info .img-box{
+
+#experience-section .experience-container .info .img-box {
   position: relative;
   text-align: right;
 }
-#experience-section .experience-container .info .img-box .lambda-img{
+
+#experience-section .experience-container .info .img-box .bloomtech-img {
   width: 260px;
   position: absolute;
   top: -115px;
   left: 255px;
 }
+
 #experience-section .experience-container .info .info-box {
   padding: 15px;
 }
+
 #experience-section .experience-container .info .info-box h4 {
   color: #16171c;
   font-size: 1.2rem;
@@ -111,6 +125,7 @@
   text-transform: uppercase;
   letter-spacing: 3px;
 }
+
 #experience-section .experience-container .info .info-box .date {
   color: #9400D3;
   font-size: 0.9rem;
@@ -120,6 +135,7 @@
   padding: 15px 0;
   display: block;
 }
+
 #experience-section .experience-container .info .info-box p {
   color: #3A3A3B;
   font-size: 1rem;
@@ -131,68 +147,81 @@
 
 
 
- /* Tablets */
- @media only screen and (max-width: 960px){
+/* Tablets */
+@media only screen and (max-width: 960px) {
   #experience-section {
     padding: 4.2rem 1.5rem 4.2rem;
   }
+
   #experience-section .large-title {
     left: 0px;
     margin-bottom: 35px;
   }
+
   #experience-section .experience-container .large-icons {
     position: relative;
     top: -30px;
   }
+
   #experience-section .experience-container .large-icons .square-parent {
     top: 55px;
     left: 50px;
   }
+
   #experience-section .experience-container .large-icons .circle-parent {
     top: 25px;
     left: 50px;
   }
+
   #experience-section .experience-container .large-icons .triangle-parent {
     top: -25px;
   }
-  #experience-section .experience-container .info .img-box .lambda-img {
+
+  #experience-section .experience-container .info .img-box .bloomtech-img {
     width: 185px;
     position: absolute;
-    top: -35px;
+    top: -45px;
     left: 15px;
   }
 }
- /* Mobile */
-  @media only screen and (max-width: 767px){
-    #experience-section {
-      padding: 6rem 1rem 8rem;
-    }
-    #experience-section .large-title {
-      margin-bottom: 10px;
-      left: 0px;
-      font-size: 2.8rem;
-      letter-spacing: 3px;
-    }
-    #experience-section .experience-container {
-      grid-template-columns: 1fr;
-    }
-    #experience-section .experience-container .large-icons {
-      display: none;
-    }
-    #experience-section .experience-container .info .info-box h4 {
-      font-size: .8rem;
-      letter-spacing: 1px;
-      line-height: 1.1;
-    }
-    #experience-section .experience-container .info .info-box .date {
-      font-size: .7rem;
-      letter-spacing: 1px;
-      line-height: 1.1;
-    }
-    #experience-section .experience-container .info .img-box .lambda-img {
-      width: 185px;
-      position: absolute;
-      top: -35px;
-      left: 15px;
-    }
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  #experience-section {
+    padding: 6rem 1rem 8rem;
+  }
+
+  #experience-section .large-title {
+    margin-bottom: 10px;
+    left: 0px;
+    font-size: 2.8rem;
+    letter-spacing: 3px;
+  }
+
+  #experience-section .experience-container {
+    grid-template-columns: 1fr;
+  }
+
+  #experience-section .experience-container .large-icons {
+    display: none;
+  }
+
+  #experience-section .experience-container .info .info-box h4 {
+    font-size: .8rem;
+    letter-spacing: 1px;
+    line-height: 1.1;
+  }
+
+  #experience-section .experience-container .info .info-box .date {
+    font-size: .7rem;
+    letter-spacing: 1px;
+    line-height: 1.1;
+  }
+
+  #experience-section .experience-container .info .img-box .bloomtech-img {
+    width: 185px;
+    position: absolute;
+    top: -45px;
+    left: 15px;
+  }
 }
